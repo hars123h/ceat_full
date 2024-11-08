@@ -1,7 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { getAuth } from 'firebase/auth';
 import axios from 'axios';
 import BASE_URL from '../api_url';
 
@@ -11,7 +10,6 @@ const ChangeLoginPassword = () => {
     const navigate = useNavigate();
     const loc = useLocation();
     // console.log(loc.state);
-    const auth = getAuth();
     const [oldpwd, setOldpwd] = useState('');
     const [newpwd, setNewpwd] = useState('');
     const [cnfNewPwd, setCnfNewPwd] = useState('');

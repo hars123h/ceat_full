@@ -21,8 +21,7 @@ import MailIcon from '@material-ui/icons/Mail';
 import { Box, TextField, Button } from '@material-ui/core';
 import { Link, useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
-import db from '../firebase/config.js';
-import { updateDoc, getDoc, doc, collection } from 'firebase/firestore';
+
 import { toast } from 'react-toastify';
 import axios from 'axios';
 import BASE_URL from '../api_url';

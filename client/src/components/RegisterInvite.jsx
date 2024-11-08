@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth';
 import referralCodeGenerator from 'referral-code-generator'
-import db from '../firebase/config.js';
+
 import { setDoc, doc, updateDoc, query, collection, where, getDocs, getDoc, arrayUnion, increment } from "firebase/firestore";
 import { useContext } from 'react';
 import { AmountContext } from '../App';

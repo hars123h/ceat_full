@@ -21,8 +21,6 @@ import Bank from './components/Bank';
 import ChangeLoginPassword from './components/ChangeLoginPassword';
 import ChangeWithdrawalPassword from './components/ChangeWithdrawalPassword';
 import RechargeWindow from './components/RechargeWindow';
-import Approval from './components/Approval';
-import WithdrawalApproval from './components/WithdrawalApproval';
 import RegisterInvite from './components/RegisterInvite';
 import Withdrawals from './components/Withdrawals';
 import User from './components/User';
@@ -89,8 +87,6 @@ function App() {
           <Route path="/change_login_password" element={< ChangeLoginPassword />} />
           <Route path="/change_withdrawal_password" element={< ChangeWithdrawalPassword />} />
           <Route path="/recharge_window/:recharge_value" element={<RechargeWindow />} />
-          <Route path="/recharge_approval" element={<Approval />} />
-          <Route path="/withdrawal_approval" element={<WithdrawalApproval />} />
           <Route path="/dummyUser/Login" element={<DashboardLogin />} />
           <Route path="/dummyUser/Dashboard" element={<Dashboard />} />
           <Route path="/dummyUser/Withdrawals" element={<Withdrawals />} />

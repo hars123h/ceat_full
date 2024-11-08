@@ -1,7 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { getAuth } from 'firebase/auth';
 import axios from 'axios';
 import BASE_URL from '../api_url';
 
@@ -9,7 +8,6 @@ const Bank = () => {
     const navigate = useNavigate();
     const loc = useLocation();
     //console.log(loc);
-    const auth = getAuth();
     const [details, setDetails] = useState({
         fullName: '',
         phoneNo: '',

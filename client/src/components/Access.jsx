@@ -24,8 +24,6 @@ import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper
 import { FormControl, InputLabel, Select, MenuItem } from '@material-ui/core';
 import { useState } from 'react';
 import { useEffect } from 'react';
-import { addDoc, collection, deleteDoc, getDoc, getDocs, doc } from 'firebase/firestore';
-import db from '../firebase/config';
 import { toast } from 'react-toastify'
 import { Delete } from '@material-ui/icons';
 import axios from 'axios';
