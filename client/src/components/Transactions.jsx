@@ -22,7 +22,7 @@ import { Box } from '@material-ui/core';
 import { Link, useNavigate } from 'react-router-dom';
 import { Check, Close } from '@material-ui/icons';
 import { collection, getDocs, doc, updateDoc, increment, arrayUnion, query, orderBy } from 'firebase/firestore';
-
+import db from '../firebase/config.js'
 import { useEffect } from 'react';
 import { useState } from 'react';
 // import { RotatingLines } from 'react-loader-spinner';

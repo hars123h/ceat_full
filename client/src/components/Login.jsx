@@ -6,6 +6,7 @@ import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { collection, getDocs, serverTimestamp } from 'firebase/firestore';
+import db from '../firebase/config';
 import { RotatingLines } from 'react-loader-spinner';
 import apache_logo from '../images/apache_logo.png';
 import axios from 'axios';

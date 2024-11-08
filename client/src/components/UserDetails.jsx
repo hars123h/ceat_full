@@ -23,7 +23,7 @@ import { Search, Visibility, Block, Edit } from '@material-ui/icons';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper } from '@material-ui/core';
 import { collection, getDocs, doc, updateDoc, increment, getDoc } from 'firebase/firestore';
-
+import db from '../firebase/config.js'
 import { useEffect } from 'react';
 // import { useNavigate } from 'react-router-dom';
 import { RotatingLines } from 'react-loader-spinner';

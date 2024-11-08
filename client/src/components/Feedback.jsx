@@ -23,7 +23,7 @@ import { Box } from '@material-ui/core';
 import { Link, useNavigate } from 'react-router-dom';
 import {collection, doc, getDocs, orderBy, query} from 'firebase/firestore';
 import { useState } from 'react';
-
+import db from '../firebase/config.js';
 import axios from 'axios';
 import BASE_URL from '../api_url';
 

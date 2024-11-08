@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Button, Select, MenuItem } from '@material-ui/core'
-
+import db from '../firebase/config.js';
 import { addDoc, doc, collection } from 'firebase/firestore'
 import { toast } from 'react-toastify';
 import axios from 'axios';

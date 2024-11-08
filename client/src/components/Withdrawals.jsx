@@ -22,7 +22,7 @@ import { Box, FormControl, InputLabel, Select, MenuItem } from '@material-ui/cor
 import { Link, useNavigate } from 'react-router-dom';
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper } from '@material-ui/core';
 import { collection, getDocs, doc, updateDoc, increment, orderBy, query } from 'firebase/firestore';
-
+import db from '../firebase/config.js'
 import { useEffect } from 'react';
 // import { useNavigate } from 'react-router-dom';
 import { RotatingLines } from 'react-loader-spinner';

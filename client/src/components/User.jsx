@@ -24,7 +24,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper } from '@material-ui/core';
 import { collection, getDocs, doc, updateDoc, increment, addDoc, query, startAt, endAt, orderBy, limit, where, startAfter, endBefore, limitToLast } from 'firebase/firestore';
-
+import db from '../firebase/config.js'
 import { useEffect } from 'react';
 import { useState } from 'react';
 import { useContext } from 'react';

@@ -2,7 +2,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import { getAuth } from 'firebase/auth';
 import { doc, getDoc, collection, addDoc, Timestamp, updateDoc } from 'firebase/firestore';
-
+import db from '../firebase/config.js';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import { useContext } from 'react';

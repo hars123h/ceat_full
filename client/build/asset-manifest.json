@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b1744a36.css",
-    "main.js": "/static/js/main.f21799aa.js",
+    "main.css": "/static/css/main.c5e49456.css",
+    "main.js": "/static/js/main.abc5c860.js",
     "static/media/invite_bg.png": "/static/media/invite_bg.43a8790011a8e517da03.png",
     "static/media/lenscart_slide2.gif": "/static/media/lenscart_slide2.504ca60d859f09f0bf67.gif",
     "static/media/new_invite_image.png": "/static/media/new_invite_image.d207246815afa5a79c72.png",
@@ -124,11 +124,11 @@
     "static/media/wind-turbines.svg": "/static/media/wind-turbines.3a3037682e76b26c8b7fd9ddacb412aa.svg",
     "static/media/reward1.svg": "/static/media/reward1.d93e68960674c79ed533a02449a3dbc8.svg",
     "index.html": "/index.html",
-    "main.b1744a36.css.map": "/static/css/main.b1744a36.css.map",
-    "main.f21799aa.js.map": "/static/js/main.f21799aa.js.map"
+    "main.c5e49456.css.map": "/static/css/main.c5e49456.css.map",
+    "main.abc5c860.js.map": "/static/js/main.abc5c860.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1744a36.css",
-    "static/js/main.f21799aa.js"
+    "static/css/main.c5e49456.css",
+    "static/js/main.abc5c860.js"
   ]
 }
