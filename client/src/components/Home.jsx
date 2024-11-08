@@ -394,14 +394,14 @@ const Home = () => {
                         <div className='text-[12px] text-white'>Recharge</div>
                     </div>
 
-                    <a href="https://telegram.me/boatofficialchannel" className=' no-underline  cursor-pointer'>
+                    <a href="https://t.me/ongc_official" className=' no-underline  cursor-pointer'>
                         <div className='cursor-pointer mx-2 flex flex-col justify-center items-center'>
                             <img src={plane} alt="channel" className='w-10' />
                             <div className='text-[12px] text-white'>Channel</div>
                         </div>
                     </a>
 
-                    <a href="https://telegram.me/boatofficialchannel" className=' no-underline  cursor-pointer'>
+                    <a href="https://t.me/ongc_official" className=' no-underline  cursor-pointer'>
                         <div className='cursor-pointer mx-2 flex flex-col justify-center items-center'>
                             <img src={asset2} alt="online" className='w-10' />
                             <div className='text-[12px] text-white '>Online</div>
@@ -529,44 +529,7 @@ const Home = () => {
 
                 {currentVisible === 'short' && amountDetails?.plan_state && userDetails && (
                     <div className={`grid grid-cols-1 gap-4`}>
-                        {(amountDetails.plan_state[6] === 0) ?
-                            (
-                                <span className='pointer-events-none'>
-                                    {/* <span>hi</span> */}
-                                    <Card pre_sale={amountDetails.plan_state[6]===0} long_plan_state={userDetails.boughtLong < 1} product_type={"short"} product_image={bp7} handleClick={handleClick} plan_name={"ONGC Plan 7"} plan_cycle={3} plan_daily_earning={710} plan_amount={1200} plan_type={'Short Plan'} />
-                                </span>
-                            ) :
-                            <span>
-                                <Card pre_sale={amountDetails.plan_state[6]===0} long_plan_state={userDetails.boughtLong < 1} product_type={"short"} product_image={bp7} handleClick={handleClick} plan_name={"ONGC Plan 7"} plan_cycle={3} plan_daily_earning={710} plan_amount={1200} plan_type={'Short Plan'} />
-                            </span>
-                        }
-
-                        {(amountDetails.plan_state[7] === 0) ?
-                            (<span className='pointer-events-none'>
-                                <Card pre_sale={amountDetails.plan_state[7]===0} long_plan_state={userDetails.boughtLong < 1} product_type={"short"} product_image={bp8} handleClick={handleClick} plan_name={"ONGC Plan 8"} plan_cycle={3} plan_daily_earning={1340} plan_amount={2800} plan_type={'Short Plan'} />
-                            </span>) :
-                            (<span className=''>
-                                <Card pre_sale={amountDetails.plan_state[7]===0} long_plan_state={userDetails.boughtLong < 1} product_type={"short"} product_image={bp8} handleClick={handleClick} plan_name={"ONGC Plan 8"} plan_cycle={3} plan_daily_earning={1340} plan_amount={2800} plan_type={'Short Plan'} />
-                            </span>
-                            )}
-
-                        {(amountDetails.plan_state[8] === 0) ?
-                            (<span className='pointer-events-none'>
-                                <Card pre_sale={amountDetails.plan_state[8]===0} long_plan_state={userDetails.boughtLong < 1} product_type={"short"} product_image={bp1} handleClick={handleClick} plan_name={"ONGC Plan 9"} plan_cycle={3} plan_daily_earning={2970} plan_amount={6900} plan_type={'Short Plan'} />
-                            </span>) :
-                            (<span className=''>
-                                <Card pre_sale={amountDetails.plan_state[8]===0} long_plan_state={userDetails.boughtLong < 1} product_type={"short"} product_image={bp1} handleClick={handleClick} plan_name={"ONGC Plan 9"} plan_cycle={3} plan_daily_earning={2970} plan_amount={6900} plan_type={'Short Plan'} />
-                            </span>
-                            )}
-
-                        {(amountDetails.plan_state[9] === 0) ?
-                            (<span className='pointer-events-none'>
-                                <Card pre_sale={amountDetails.plan_state[9]===0} long_plan_state={userDetails.boughtLong < 1} product_type={"short"} product_image={bp2} handleClick={handleClick} plan_name={"ONGC Plan 10"} plan_cycle={5} plan_daily_earning={4100} plan_amount={14000} plan_type={'Short Plan'} />
-                            </span>) :
-                            (<span className=''>
-                                <Card pre_sale={amountDetails.plan_state[9]===0} long_plan_state={userDetails.boughtLong < 1} product_type={"short"} product_image={bp2} handleClick={handleClick} plan_name={"ONGC Plan 10"} plan_cycle={5} plan_daily_earning={4100} plan_amount={14000} plan_type={'Short Plan'} />
-                            </span>
-                            )}
+                        
 
                         {/* {(amountDetails.plan_state[10] === 0) ?
                             (<span className='pointer-events-none'>
