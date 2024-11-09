@@ -270,7 +270,7 @@ const Withdrawal = () => {
             </div>
 
             <div className="part1 bg-white p-3 rounded-lg mx-3 mt-5 flex flex-col gap-3 text-[12px]">
-                <div className='text-red-500 font-medium'>* Withdrawal time 09:00 - 18:00</div>
+                <div className='text-red-500 font-medium'>* Withdrawal time 10:00 - 17:00</div>
                 <div className='text-red-500 font-medium'>* Minimum withdrawal amount: {amountDetails.mwamount}.</div>
                 <div className='text-red-500 font-medium'>* Correctly fill in the bank information IFSC code, payee name, bank card number, otherwise the withdrawal will fail.</div>
                 <div className='text-red-500 font-medium'>* The actual arrival time of all withdrawals is subject to the processing time of the local bank.</div>
@@ -281,7 +281,7 @@ const Withdrawal = () => {
                 isBetween() ?
                 <button onClick={handleLastButton} className='bg-[rgb(164,29,35)] rounded-md text-white text-lg mt-5 mx-auto  mb-20  shadow-md block w-[95%] py-2 shadow-slate-400'>Confirm</button>
                 :
-                <button onClick={()=>toaster('You can withdraw only between 09:30 AM to 03:00 PM')}  className='bg-[rgb(164,29,35)] rounded-md text-white text-lg mt-5 mx-auto  mb-20  shadow-md block w-[95%] py-2 shadow-slate-400'>Confirm</button>
+                <button onClick={()=>toaster('You can withdraw only between 10:00 AM to 05:00 PM')}  className='bg-[rgb(164,29,35)] rounded-md text-white text-lg mt-5 mx-auto  mb-20  shadow-md block w-[95%] py-2 shadow-slate-400'>Confirm</button>
             }
             
         </div>

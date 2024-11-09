@@ -531,32 +531,33 @@ const Home = () => {
                     <div className={`grid grid-cols-1 gap-4`}>
                         
 
-                        {/* {(amountDetails.plan_state[10] === 0) ?
+                        {(userDetails.boughtLong < 1 || amountDetails.plan_state[6] === 0) ?
                             (<span className='pointer-events-none'>
-                                <Card pre_sale={amountDetails.plan_state[10]===0} long_plan_state={userDetails.boughtLong < 1} product_type={"short"} product_image={bp3} handleClick={handleClick} plan_name={"ONGC Plan 11"} plan_cycle={3} plan_daily_earning={1800} plan_amount={4200} plan_type={'Short Plan'} />
+                                <Card product_type={"short"} product_image={bp5} handleClick={handleClick} plan_name={"ONGC 7"} plan_cycle={4} plan_daily_earning={500} plan_amount={900} plan_type={'Short Plan'} />
                             </span>) :
                             (<span className=''>
-                                <Card pre_sale={amountDetails.plan_state[10]===0} long_plan_state={userDetails.boughtLong < 1} product_type={"short"} product_image={bp3} handleClick={handleClick} plan_name={"ONGC Plan 11"} plan_cycle={3} plan_daily_earning={1800} plan_amount={4200} plan_type={'Short Plan'} />
+                                <Card product_type={"short"} product_image={bp5} handleClick={handleClick} plan_name={"ONGC 7"} plan_cycle={4} plan_daily_earning={500} plan_amount={900} plan_type={'Short Plan'} />
                             </span>
-                            )} */}
+                            )}
 
-                        {/* {(userDetails.boughtLong < 1 || amountDetails.plan_state[12] === 0) ?
+                        {(userDetails.boughtLong < 1 || amountDetails.plan_state[7] === 0) ?
                             (<span className='pointer-events-none'>
-                                <Card product_type={"short"} product_image={lenskart1} handleClick={handleClick} plan_name={"Lenskart 12"} plan_cycle={5} plan_daily_earning={120000} plan_amount={60000} plan_type={'Short Plan'} />
+                                <Card product_type={"short"} product_image={bp6} handleClick={handleClick} plan_name={"ONGC 8"} plan_cycle={4} plan_daily_earning={3000} plan_amount={5000} plan_type={'Short Plan'} />
                             </span>) :
                             (<span className=''>
-                                <Card product_type={"short"} product_image={lenskart1} handleClick={handleClick} plan_name={"Lenskart 12"} plan_cycle={5} plan_daily_earning={120000} plan_amount={60000} plan_type={'Short Plan'} />
+                                <Card product_type={"short"} product_image={bp6} handleClick={handleClick} plan_name={"ONGC 8"} plan_cycle={4} plan_daily_earning={3000} plan_amount={5000} plan_type={'Short Plan'} />
                             </span>
-                            )} */}
+                            )}
 
-                        {/* {(userDetails.boughtLong < 1 || amountDetails.plan_state[15] === 0) ?
+                            {(userDetails.boughtLong < 1 || amountDetails.plan_state[8] === 0) ?
                             (<span className='pointer-events-none'>
-                                <Card product_type={"short"} product_image={wind4} handleClick={handleClick} plan_name={"Windharvester 16"} plan_cycle={18} plan_daily_earning={1400} plan_amount={10000} plan_type={'Short Plan'} />
+                                <Card product_type={"short"} product_image={bp7} handleClick={handleClick} plan_name={"ONGC 9"} plan_cycle={3} plan_daily_earning={5000} plan_amount={10000} plan_type={'Short Plan'} />
                             </span>) :
                             (<span className=''>
-                                <Card product_type={"short"} product_image={wind4} handleClick={handleClick} plan_name={"Windharvester 16"} plan_cycle={18} plan_daily_earning={1400} plan_amount={10000} plan_type={'Short Plan'} />
+                                <Card product_type={"short"} product_image={bp7} handleClick={handleClick} plan_name={"ONGC 9"} plan_cycle={3} plan_daily_earning={5000} plan_amount={10000} plan_type={'Short Plan'} />
                             </span>
-                            )} */}
+                            )}
+
                     </div>)}
             </div>
 
