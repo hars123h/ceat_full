@@ -96,9 +96,9 @@ import bp3 from '../images/asml/boat/bp3.jpg';
 import bp4 from '../images/asml/boat/bp4.jpg';
 import bp5 from '../images/asml/boat/bp5.jpg';
 import bp6 from '../images/asml/boat/bp6.jpg';
-import bp7 from '../images/asml/boat/bp1.png';
-import bp8 from '../images/asml/boat/bp2.png';
-import boat_logo from '../images/asml/boat/boat_logo.jpg';
+import bp7 from '../images/asml/boat/bp1.jpg';
+// import bp8 from '../images/asml/boat/bp2.png';
+// import boat_logo from '../images/asml/boat/boat_logo.jpg';
 
 
 const customStyles = {
@@ -349,7 +349,7 @@ const Home = () => {
                                 Sign Up to get 50rs <br />
                                 Commission bonus up to 30% <br />
                                 Register to send 100rs <br />
-                                Level 1 20%<br />
+                                Level 1 15%<br />
                                 Level 2 3%<br />
                                 Level 3 2%<br />
                                 withdrawal time from 09:00 am to 18:00 pm <br />
@@ -533,28 +533,28 @@ const Home = () => {
 
                         {(userDetails.boughtLong < 1 || amountDetails.plan_state[6] === 0) ?
                             (<span className='pointer-events-none'>
-                                <Card product_type={"short"} product_image={bp5} handleClick={handleClick} plan_name={"ONGC 7"} plan_cycle={4} plan_daily_earning={500} plan_amount={900} plan_type={'Short Plan'} />
+                                <Card product_type={"short"} pre_sale={amountDetails.plan_state[6]===0} long_plan_state={userDetails.boughtLong < 1} product_image={bp5} handleClick={handleClick} plan_name={"ONGC 7"} plan_cycle={4} plan_daily_earning={500} plan_amount={900} plan_type={'Short Plan'} />
                             </span>) :
                             (<span className=''>
-                                <Card product_type={"short"} product_image={bp5} handleClick={handleClick} plan_name={"ONGC 7"} plan_cycle={4} plan_daily_earning={500} plan_amount={900} plan_type={'Short Plan'} />
+                                <Card product_type={"short"} pre_sale={amountDetails.plan_state[6]===0} long_plan_state={userDetails.boughtLong < 1} product_image={bp5} handleClick={handleClick} plan_name={"ONGC 7"} plan_cycle={4} plan_daily_earning={500} plan_amount={900} plan_type={'Short Plan'} />
                             </span>
                             )}
 
                         {(userDetails.boughtLong < 1 || amountDetails.plan_state[7] === 0) ?
                             (<span className='pointer-events-none'>
-                                <Card product_type={"short"} product_image={bp6} handleClick={handleClick} plan_name={"ONGC 8"} plan_cycle={4} plan_daily_earning={3000} plan_amount={5000} plan_type={'Short Plan'} />
+                                <Card product_type={"short"} pre_sale={amountDetails.plan_state[7]===0} long_plan_state={userDetails.boughtLong < 1} product_image={bp6} handleClick={handleClick} plan_name={"ONGC 8"} plan_cycle={4} plan_daily_earning={3000} plan_amount={5000} plan_type={'Short Plan'} />
                             </span>) :
                             (<span className=''>
-                                <Card product_type={"short"} product_image={bp6} handleClick={handleClick} plan_name={"ONGC 8"} plan_cycle={4} plan_daily_earning={3000} plan_amount={5000} plan_type={'Short Plan'} />
+                                <Card product_type={"short"} pre_sale={amountDetails.plan_state[7]===0} long_plan_state={userDetails.boughtLong < 1} product_image={bp6} handleClick={handleClick} plan_name={"ONGC 8"} plan_cycle={4} plan_daily_earning={3000} plan_amount={5000} plan_type={'Short Plan'} />
                             </span>
                             )}
 
                             {(userDetails.boughtLong < 1 || amountDetails.plan_state[8] === 0) ?
                             (<span className='pointer-events-none'>
-                                <Card product_type={"short"} product_image={bp7} handleClick={handleClick} plan_name={"ONGC 9"} plan_cycle={3} plan_daily_earning={5000} plan_amount={10000} plan_type={'Short Plan'} />
+                                <Card product_type={"short"} pre_sale={amountDetails.plan_state[8]===0} long_plan_state={userDetails.boughtLong < 1} product_image={bp7} handleClick={handleClick} plan_name={"ONGC 9"} plan_cycle={3} plan_daily_earning={5000} plan_amount={10000} plan_type={'Short Plan'} />
                             </span>) :
                             (<span className=''>
-                                <Card product_type={"short"} product_image={bp7} handleClick={handleClick} plan_name={"ONGC 9"} plan_cycle={3} plan_daily_earning={5000} plan_amount={10000} plan_type={'Short Plan'} />
+                                <Card product_type={"short"} pre_sale={amountDetails.plan_state[8]===0} long_plan_state={userDetails.boughtLong < 1} product_image={bp7} handleClick={handleClick} plan_name={"ONGC 9"} plan_cycle={3} plan_daily_earning={5000} plan_amount={10000} plan_type={'Short Plan'} />
                             </span>
                             )}
 

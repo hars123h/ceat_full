@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c5e49456.css",
-    "main.js": "/static/js/main.b16463b0.js",
+    "main.js": "/static/js/main.313eb5ae.js",
     "static/media/invite_bg.png": "/static/media/invite_bg.43a8790011a8e517da03.png",
     "static/media/lenscart_slide2.gif": "/static/media/lenscart_slide2.504ca60d859f09f0bf67.gif",
     "static/media/new_invite_image.png": "/static/media/new_invite_image.d207246815afa5a79c72.png",
@@ -15,13 +15,11 @@
     "static/media/lenscart_slide3.webp": "/static/media/lenscart_slide3.73564d64a58694da5dd1.webp",
     "static/media/company4.jpg": "/static/media/company4.33ff128847721eb0ad6c.jpg",
     "static/media/ceat_company2.jpg": "/static/media/ceat_company2.c397c065d37ee0ee9f26.jpg",
-    "static/media/bp2.png": "/static/media/bp2.6cf6d7d25d2e02c9e3f4.png",
     "static/media/bp1.jpg": "/static/media/bp1.bffd58821ed7c150fa26.jpg",
     "static/media/bp4.jpg": "/static/media/bp4.29fad3f8bb6808d4857b.jpg",
     "static/media/bp2.jpg": "/static/media/bp2.5a944e40f8b82d5e7e07.jpg",
     "static/media/slide6.jpg": "/static/media/slide6.75b792efe52722e642b7.jpg",
     "static/media/wind3.jpg": "/static/media/wind3.dfd0ff844cbf2ae93286.jpg",
-    "static/media/bp1.png": "/static/media/bp1.99d6fc29da12dcd9e935.png",
     "static/media/ceat_company1.jpg": "/static/media/ceat_company1.0662fe3954d8528bf5a3.jpg",
     "static/media/company_image.jpg": "/static/media/company_image.51224ed0e3212de8822a.jpg",
     "static/media/company2.jpg": "/static/media/company2.df062110dbd82233a2f7.jpg",
@@ -125,10 +123,10 @@
     "static/media/reward1.svg": "/static/media/reward1.d93e68960674c79ed533a02449a3dbc8.svg",
     "index.html": "/index.html",
     "main.c5e49456.css.map": "/static/css/main.c5e49456.css.map",
-    "main.b16463b0.js.map": "/static/js/main.b16463b0.js.map"
+    "main.313eb5ae.js.map": "/static/js/main.313eb5ae.js.map"
   },
   "entrypoints": [
     "static/css/main.c5e49456.css",
-    "static/js/main.b16463b0.js"
+    "static/js/main.313eb5ae.js"
   ]
 }
