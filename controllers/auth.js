@@ -321,7 +321,7 @@ exports.update_recharge = async (req, res) => {
         // Level 1 recharge commission
         await User.updateOne({ _id: data.parent_id }, {
           $inc: {
-            balance: Number((15 / 100) * (Number(data.recharge_value))),
+            balance: Number((25 / 100) * (Number(data.recharge_value))),
             directRecharge: Number(data.recharge_value)
           },
           $addToSet: {

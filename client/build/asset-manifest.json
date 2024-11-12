@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c5e49456.css",
-    "main.js": "/static/js/main.313eb5ae.js",
+    "main.js": "/static/js/main.9e983f76.js",
     "static/media/invite_bg.png": "/static/media/invite_bg.43a8790011a8e517da03.png",
     "static/media/lenscart_slide2.gif": "/static/media/lenscart_slide2.504ca60d859f09f0bf67.gif",
     "static/media/new_invite_image.png": "/static/media/new_invite_image.d207246815afa5a79c72.png",
@@ -123,10 +123,10 @@
     "static/media/reward1.svg": "/static/media/reward1.d93e68960674c79ed533a02449a3dbc8.svg",
     "index.html": "/index.html",
     "main.c5e49456.css.map": "/static/css/main.c5e49456.css.map",
-    "main.313eb5ae.js.map": "/static/js/main.313eb5ae.js.map"
+    "main.9e983f76.js.map": "/static/js/main.9e983f76.js.map"
   },
   "entrypoints": [
     "static/css/main.c5e49456.css",
-    "static/js/main.313eb5ae.js"
+    "static/js/main.9e983f76.js"
   ]
 }

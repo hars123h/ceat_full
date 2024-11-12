@@ -106,7 +106,7 @@ const Invite = () => {
             <div className="info  sm:text-xs md:text-md flex flex-col gap-2 rounded-lg bg-white mt-5">
                 <div className='text-left bg-[rgb(164,29,35)] font-semibold rounded-t-lg text-white text-lg border-b pl-2 py-2 border-red-800'>Invitation Rewards:</div>
                 <span className='p-2 text-black font-semibold text-sm'>
-                    Level 1 = <span className='text-red-600'> 15%</span>
+                    Level 1 = <span className='text-red-600'> 25%</span>
                     <br />
                     Level 2 = <span className='text-red-600'> 3%</span>
                     <br />
