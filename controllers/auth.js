@@ -158,8 +158,8 @@ exports.purchase = async (req, res) => {
     await User.updateOne({ _id: user_id },
       {
         $set: {
-          // recharge_amount: recharge_amount,
-          balance: balance
+          recharge_amount: recharge_amount,
+          // balance: balance
         },
         $inc: {
           boughtLong: boughtLong,
